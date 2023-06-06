@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+============= Anchor Tag Utilites =================
+*/
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+/*
+============= Heading Tag Utilites =================
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/*
+============= P Tag Utilites =================
+*/
+
+p {
+  margin: 0;
+}
+
+/*
+============= UL/OL Tag Utilites ================= 
+*/
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*
+============= Input Tag Utilites ================= 
+*/
+
+input:focus {
+  outline: none;
+}
+
+/* 
+=============CSS For 3rd party packages =================
+ */
+
+/* react-tag-input CSS  */
+
+.ReactTags__tags.react-tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ReactTags__tagInput {
+  margin-left: 10px;
+}
+.ReactTags__selected {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ReactTags__selected span {
+  margin-left: 8px;
+  background: #ffeeff;
+  color: #7079e0;
+  padding: 4px 10px;
+  border: 1px solid #7079e0;
+  border-radius: 100px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.ReactTags__selected span button {
+  background: #7079e0;
+  color: #ffeeff;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+.ReactTags__tagInput input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.ReactTags__tagInput input:focus {
+  outline: none;
+}
+.ReactTags__tagInput input::placeholder {
+  font-weight: 500;
+  font-size: 10px;
+  color: #616161;
+}
+.ReactTags__suggestions {
+  margin-top: 10px;
+  position: absolute;
+  z-index: 999;
+  background: #fff;
+  padding: 5px;
+  line-height: 2;
+}
+
+.ReactTags__suggestions span {
+  padding: 20px;
+  cursor: pointer;
+}
+.ReactTags__activeSuggestion {
+  background: #a9a8a8;
+}
+
+/* Loader CSS  */
+.animation_loader {
+  width: 70%;
+  margin: 30vh auto;
+}
+
+.pulsate_animation {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px;
+}
+
+.rectangular_ske {
+  height: 234px !important;
+}
+.rectangular_ske .MuiSkeleton-rectangular {
+  height: 150px !important;
+}
+
+.full_width {
+  width: 100% !important;
+}
+.social_handle_name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757575;
+}
+
+/* 404 Error Page Styles  */
+.error_404,
+.error_403 {
+  text-align: center;
+  margin-top: 200px;
+  line-height: 2;
+}
+
+#account-menu .MuiMenu-paper {
+  padding: 24px 24px 13px 24px;
+  margin-left: -22px;
+  margin-top: 7px;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+#account-menu .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  min-height: auto;
+  padding: 0;
+}
+#account-menu .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background: transparent !important;
+}
+
+/* Common Navigation Active CSS  */
+
+.common_nav_active {
+  background-color: #cddbff;
+}
